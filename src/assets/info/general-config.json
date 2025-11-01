@@ -5,15 +5,15 @@
   "defaultTitle": "ADTF13 |",
   "icon": "/faction-logos/msmc.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
-    "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
-    "ring": "Annamite",
-    "headerTitle": "Amethyst Dogs",
-    "headerSubtitle": "Task Force 13",
-    "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "planet": "Tamastea-5",
+    "year": "5020u",
+    "system": "YB7-324",
+    "gate": "NULL",
+    "ring": "[REDACTED]",
+    "headerTitle": "MIRRORSMOKE",
+    "headerSubtitle": "Mercenary Company",
+    "subheaderTitle": "Operation: Blackout",
+    "subheaderSubtitle": "Tango-Papa-Kilo"
   },
   "pilotSpecialInfo": {}
 }
