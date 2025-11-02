@@ -5,14 +5,14 @@
   "defaultTitle": "ADTF13 |",
   "icon": "/faction-logos/msmc.svg",
   "header": {
-    "planet": "Tamastea-5",
-    "year": "5020u",
-    "system": "YB7-324",
+    "planet": "Hercynia",
+    "year": "5014u",
+    "system": "Hercynia System",
     "gate": "NULL",
     "ring": "[REDACTED]",
     "headerTitle": "MIRRORSMOKE",
     "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "Operation: Blackout",
+    "subheaderTitle": "No Room for a Wildflower",
     "subheaderSubtitle": "Tango-Papa-Kilo"
   },
   "pilotSpecialInfo": {}
