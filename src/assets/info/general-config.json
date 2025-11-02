@@ -3,16 +3,16 @@
   "planetPath": "/planet.webm",
   "animate": true,
   "defaultTitle": "ADTF13 |",
-  "icon": "/faction-logos/msmc.svg",
+  "icon": "/faction-logos/union.svg",
   "header": {
     "planet": "Hercynia",
     "year": "5014u",
     "system": "Hercynia System",
     "gate": "NULL",
     "ring": "[REDACTED]",
-    "headerTitle": "MIRRORSMOKE",
-    "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "No Room for a Wildflower",
+    "headerTitle": "UNION",
+    "headerSubtitle": "AUXILIARY PEACEKEEPING FORCE",
+    "subheaderTitle": "Operation: Wildflower",
     "subheaderSubtitle": "Tango-Papa-Kilo"
   },
   "pilotSpecialInfo": {}
