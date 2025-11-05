@@ -3,17 +3,17 @@
   "planetPath": "/planet.webm",
   "animate": true,
   "defaultTitle": "ADTF13 |",
-  "icon": "/faction-logos/msmc.svg",
+  "icon": "/faction-logos/union.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
-    "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
-    "ring": "Annamite",
-    "headerTitle": "Amethyst Dogs",
-    "headerSubtitle": "Task Force 13",
-    "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "planet": "Hercynia",
+    "year": "5014u",
+    "system": "Hercynia System",
+    "gate": "NULL",
+    "ring": "[REDACTED]",
+    "headerTitle": "UNION",
+    "headerSubtitle": "AUXILIARY PEACEKEEPING FORCE",
+    "subheaderTitle": "Operation: Wallflower",
+    "subheaderSubtitle": "Tango-Papa-Kilo"
   },
   "pilotSpecialInfo": {}
 }
