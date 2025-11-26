@@ -1,7 +1,7 @@
 [{
-	"type": "Evergreen Defense",
+	"type": "Operation",
 	"result": "",
-	"name":  "",
+	"name":  "Evergreen Defense",
 	"description": "",
 	"value": 4,
 	"max": 6,
