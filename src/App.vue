@@ -93,7 +93,20 @@ export default {
 				event["location"] = content.split("\n")[1];
 				event["time"] = content.split("\n")[2];
 				event["thumbnail"] = content.split("\n")[3];
-				event["content"] = content.split("\n").splice(4).join("\n");
+				// optional: support a single-line clock descriptor on the 5th line starting with "clock:" followed by a JSON object
+				const lines = content.split("\n");
+				if (lines.length > 4 && lines[4].trim().startsWith("clock:")) {
+					try {
+						const clockJson = lines[4].replace(/^clock:/i, "").trim();
+						event["clock"] = JSON.parse(clockJson);
+						event["content"] = lines.splice(5).join("\n");
+					} catch (e) {
+						// if parsing fails, fallback to treating line 4 as part of the content
+						event["content"] = lines.splice(4).join("\n");
+					}
+				} else {
+					event["content"] = lines.splice(4).join("\n");
+				}
 				this.events = [...this.events, event];
 			});
 			this.events = this.events.reverse();

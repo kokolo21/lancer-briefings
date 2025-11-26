@@ -12,6 +12,8 @@
 				<h1>{{ event.location }} // {{ event.time }}</h1>
 				<h2>{{ event.title }}</h2>
 			</div>
+			<!-- optional clock attached to the event (single-line JSON on the 5th line of the .md file) -->
+			<Clock v-if="event.clock" :clock="event.clock" :animate="false" class="event-clock" />
 			<vue-markdown-it :source="event.content" class="markdown" />
 		</div>
 	</div>
@@ -19,11 +21,13 @@
 
 <script>
 import { VueMarkdownIt } from '@f3ve/vue-markdown-it';
+import Clock from "@/components/Clock.vue";
 
 export default {
 	name: "EventModal",
 	components: {
 		VueMarkdownIt,
+		Clock,
 	},
 	props: {
 		event: {

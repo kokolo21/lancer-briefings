@@ -40,6 +40,7 @@
 <script>
 import { VueMarkdownIt } from '@f3ve/vue-markdown-it';
 import Event from "@/components/Event.vue";
+import Clock from "@/components/Clock.vue";
 
 export default {
 	components: {
