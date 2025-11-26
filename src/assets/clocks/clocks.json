@@ -1,2 +1,9 @@
-[
-]
+[{
+	"type": "",
+	"result": "",
+	"name":  "Evergreen Defense",
+	"description": "",
+	"value": 4,
+	"max": 6,
+	"color": "#3CB043"
+}]

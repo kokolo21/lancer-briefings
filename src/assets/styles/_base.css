@@ -1690,3 +1690,20 @@ div.markdown ol li {
 	line-height:11px;
 	text-align: justify;
 }
+
+/* Center the clock header above the chart for non-story clocks */
+.clock-container .clock-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.clock-container .clock-body {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
