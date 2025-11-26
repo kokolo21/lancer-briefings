@@ -1,2 +1,9 @@
-[
-]
+[{
+	"type": "Operation",
+	"result": "",
+	"name": "Evergreen Defense",
+	"description": "A defensive operation securing the perimeter around Evergreen to protect vital assets and maintain stability.",
+	"value": 0,
+	"max": 8,
+	"color": "#3CB043"
+}]

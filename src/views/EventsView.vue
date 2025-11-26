@@ -30,7 +30,6 @@
 						<h1>{{ selectedEvent.location }} // {{ selectedEvent.time }}</h1>
 						<h2>{{ selectedEvent.title }}</h2>
 					</div>
-					<Clock v-if="selectedEvent.clock" :clock="selectedEvent.clock" :animate="false" class="event-clock" />
 					<vue-markdown-it :source="selectedEvent.content" class="markdown" />
 				</div>
 			</div>
@@ -41,13 +40,11 @@
 <script>
 import { VueMarkdownIt } from '@f3ve/vue-markdown-it';
 import Event from "@/components/Event.vue";
-import Clock from "@/components/Clock.vue";
 
 export default {
 	components: {
 		VueMarkdownIt,
 		Event,
-		Clock,
 	},
 	props: {
 		animate: {
